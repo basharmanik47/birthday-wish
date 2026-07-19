@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>শুভ জন্মদিন! 🎂</title>
+    <!-- CSS ফাইল লিংক করা হলো -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- আতশবাজির ব্যাকগ্রাউন্ড ক্যানভাস -->
+    <canvas id="fireworksCanvas"></canvas>
+
+    <!-- ১. কাউন্টডাউন স্ক্রিন -->
+    <div id="countdown-container">
+        <h1>আপনার স্পেশাল সারপ্রাইজের জন্য অপেক্ষা করুন... 🎁</h1>
+        <div id="timer">00:00:00</div>
+    </div>
+
+    <!-- ২. সারপ্রাইজ স্ক্রিন -->
+    <div id="surprise-container">
+        <h1 class="birthday-title">Happy Birthday! 🥳🎉</h1>
+        
+        <!-- গিফট বক্স -->
+        <div id="gift" class="gift-box" onclick="openGift()">🎁</div>
+        <p id="click-prompt" class="click-text">উপহারটি খুলতে বক্সের ওপর ক্লিক করুন!</p>
+
+        <!-- মূল চিঠি বা মেসেজ -->
+        <div id="letter">
+            <h2>শুভ জন্মদিন! ❤️</h2>
+            <p>আজকের এই বিশেষ দিনে তোমার জন্য অনেক অনেক শুভেচ্ছা ও ভালোবাসা। ঈশ্বরের কাছে প্রার্থনা করি তোমার আগামী দিনগুলো যেন অনেক আনন্দে আর সাফল্যে ভরে ওঠে। সবসময় এভাবেই হাসিখুশি থেকো!</p>
+            <p class="signature">— তোমার নাম</p>
+        </div>
+    </div>
+
+    <!-- JavaScript ফাইল লিংক করা হলো -->
+    <script src="script.js"></script>
+</body>
+</html>
